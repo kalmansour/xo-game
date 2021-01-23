@@ -3,7 +3,7 @@
   flex-direction: column;
   width: 100vw;
   height: 100vh;
-  background-color: rgb(68, 247, 128);
+  /* background-color: #b76e79; */
   align-items: center;
   justify-content: center;
 }
@@ -17,7 +17,7 @@
 .xosquare {
   width: 80px;
   height: 80px;
-  background-color: pink;
+  background-color: #62ff62;
   margin: 10px;
   text-align: center;
   line-height: 150%;

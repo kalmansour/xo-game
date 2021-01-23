@@ -53,7 +53,13 @@ const XOGrid = () => {
   ));
   return (
     <div>
-      <h1>{`${counter % 2 === 0 ? "X" : "0"} Turn`}</h1>
+      <h1
+        style={{
+          color: "white",
+          backgroundColor: "#99ccff",
+          marginRight: 190,
+        }}
+      >{`${counter % 2 === 0 ? "X" : "0"} Turn`}</h1>
       <div className="xogrid">{squaresTitle}</div>
     </div>
   );
