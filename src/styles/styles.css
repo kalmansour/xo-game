@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(68, 247, 128);
+  align-items: center;
+  justify-content: center;
+}
+
+.xogrid {
+  display: flex;
+  flex-wrap: wrap;
+  width: 300px;
+}
+
+.xosquare {
+  width: 80px;
+  height: 80px;
+  background-color: pink;
+  margin: 10px;
+  text-align: center;
+  line-height: 150%;
+  font-weight: bold;
+  font-size: 50px;
+  cursor: pointer;
+}
