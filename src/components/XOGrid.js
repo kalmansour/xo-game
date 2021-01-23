@@ -44,7 +44,7 @@ const XOGrid = () => {
     const d1 = [squares[0], squares[4], squares[8]].join("") === `${p}${p}${p}`;
     const d2 = [squares[2], squares[4], squares[6]].join("") === `${p}${p}${p}`;
     if (r1 || r2 || r3 || c1 || c2 || c3 || d1 || d2) {
-      alert(`${p} Wins the game!!`);
+      alert(`We have a Winner!`);
     }
   };
 
